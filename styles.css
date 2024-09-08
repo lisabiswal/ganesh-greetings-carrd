@@ -1,0 +1,76 @@
+.maindiv{
+    border: 1px solid rgb(208, 202, 202);
+    border-radius: 10px;
+    max-width: 30vw;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 4px gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    background-color: rgb(224, 219, 219);
+}
+img{
+    width: 29vw;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+button{
+    background-color: white;
+    border: 1px solid rgb(210, 203, 203);
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: large;
+    padding: 10px 20px;
+}
+.hp{
+    margin-left: 20px;
+    padding: 0 5px;
+}
+.btn{
+    background-color: rgb(248, 227, 187);
+    
+    margin: 30px 0;
+    color: rgb(157, 103, 2);
+    font-weight: bold;
+}
+.btn:hover{
+    color: rgb(248, 227, 187);
+    background-color: rgb(157, 103, 2);
+}
+.btndiv{
+    text-align: center; 
+}
+.para{
+    color: #aeaaaa;
+}
+.para1{
+    font-size: larger;
+}
+#greeting:hover{
+    background-color: #686565;
+}
+@media only screen and (max-width: 455px){
+    .maindiv{
+        width: 445px;
+        
+    }
+    .gl{
+        display: flex;
+    }
+    
+    .para1,h1{
+        font-size: small;
+    }
+    button{
+        font-size: 6px;
+        padding: 5px 10px;
+    }
+
+
+}
